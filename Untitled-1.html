@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho de Biologia — [Seu Tema]</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maquete Interativa: Célula Animal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>[Título do Trabalho]</h1>
-        <p>Biologia — Escola [Nome]</p>
-    </header>
+  <header class="hero">
+    <div class="container">
+      <span class="badge">Trabalho de Biologia & LPW</span>
+      <h1>Estudo da Célula Animal</h1>
+      <p>Apresentação da maquete tridimensional e detalhamento das organelas celulares.</p>
+    </div>
+  </header>
 
-    <!-- Menu de Navegação -->
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#introducao">Introdução</a>
-        <a href="#topicos">Tópicos</a>
-        <a href="#imagens">Imagens</a>
-        <a href="#referencias">Referências</a>
-    </nav>
+  <main class="container">
+    
+    <!-- Seção da Maquete -->
+    <section class="maquete-section">
+      <div class="maquete-card">
+        <div class="maquete-img-wrapper">
+          <!-- Subsitua 'sua-foto.jpg' pelo caminho da imagem da sua maquete -->
+          <img src="sua-foto.jpg" alt="Foto da Maquete da Célula Animal">
+        </div>
+        <div class="maquete-info">
+          <h2>Nossa Maquete</h2>
+          <p>
+            Esta maquete representa a estrutura tridimensional de uma <strong>célula eucariótica animal</strong>. 
+            Células animais são as unidades fundamentais de tecidos e órgãos dos seres do reino Animalia, caracterizadas pela ausência de parede celular e pela presença de núcleo definido.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <!-- Conteúdo Principal -->
-    <main>
-        <section id="inicio">
-            <h2>Bem-vindo ao nosso trabalho</h2>
-            <p>Aqui você vai encontrar tudo sobre o estudo de [tema].</p>
-        </section>
+    <!-- Grade de Organelas -->
+    <section class="organelas-section">
+      <h2>Organelas e Estruturas</h2>
+      <div class="grid-organelas">
 
-        <section id="introducao">
-            <h2>Introdução</h2>
-            <p>Escreva aqui a apresentação do tema... O que é, importância, objetivos do estudo.</p>
-        </section>
+        <article class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Núcleo & Nucleólo</h3>
+          <p>Centro de controle da célula. Armazena o material genético (DNA) e comanda todas as atividades celulares e a síntese de proteínas.</p>
+        </article>
 
-        <section id="topicos">
-            <h2>Desenvolvimento</h2>
-            
-            <h3>1. Primeiro conceito</h3>
-            <p>Explicação detalhada. Use parágrafos curtos para facilitar a leitura.</p>
-            
-            <h3>2. Segundo conceito</h3>
-            <p>Mais informações... Pode usar listas:</p>
-            <ul>
-                <li>Característica 1</li>
-                <li>Característica 2</li>
-                <li>Característica 3</li>
-            </ul>
-        </section>
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Mitocôndrias</h3>
+          <p>Responsáveis pela respiração celular e produção de energia (ATP) para manter a célula em funcionamento.</p>
+        </article>
 
-        <section id="imagens">
-            <h2>Galeria</h2>
-            <div class="galeria">
-                <figure>
-                    <img src="imagens/imagem1.jpg" alt="Descrição da imagem">
-                    <figcaption>Legenda explicativa</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/imagem2.jpg" alt="Descrição da imagem">
-                    <figcaption>Legenda explicativa</figcaption>
-                </figure>
-            </div>
-        </section>
+        <article class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Membrana Plasmática</h3>
+          <p>Película semipermeável que delimita a célula, controlando a entrada e saída de substâncias (permeabilidade seletiva).</p>
+        </article>
 
-        <section id="referencias">
-            <h2>Referências</h2>
-            <p>Fontes consultadas:</p>
-            <ul>
-                <li>Site/livro 1 — Autor, ano</li>
-                <li>Site/livro 2 — Autor, ano</li>
-            </ul>
-        </section>
-    </main>
+        <article class="card">
+          <div class="card-icon">💧</div>
+          <h3>Citoplasma</h3>
+          <p>Fluido gelatinoso (citosol) contendo organelas imersas, onde ocorrem diversas reações metabólicas vitais.</p>
+        </article>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>Elaborado por: [Seu Nome] — [Data]</p>
-    </footer>
+        <article class="card">
+          <div class="card-icon">🏗️</div>
+          <h3>Retículo Endoplasmático</h3>
+          <p>Dividido em <strong>RUGOSO</strong> (sintetiza proteínas com ribossomos) e <strong>LISO</strong> (produz lipídios e neutraliza toxinas).</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📦</div>
+          <h3>Complexo de Golgi</h3>
+          <p>Modifica, armazena, empacota e envia substâncias fabricadas na célula para o destino correto.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">♻️</div>
+          <h3>Lisossomos</h3>
+          <p>Especializados na digestão intracelular, quebrando partículas nutritivas ou degradando componentes danificados.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Ribossomos</h3>
+          <p>Pequenas estruturas (livres ou associadas ao retículo) responsáveis por fabricar proteínas.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📐</div>
+          <h3>Centríolos</h3>
+          <p>Estruturas que auxiliam na divisão celular (mitose/meiose) e na formação de cílios e flagelos.</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido para a disciplina de <strong>Linguagem de Programação Web (LPW)</strong> & <strong>Biologia</strong>.</p>
+  </footer>
 
 </body>
 </html>
